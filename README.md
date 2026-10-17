@@ -1,8 +1,8 @@
 ### Hola, soy Rafael 👋
 
-**Desarrollador Full Stack — React + Python** · Colombia (GMT-5) · Remoto
+**NOVUS DEV** · Desarrollador Full Stack — React + Python · Colombia (GMT-5) · Remoto
 
-Construyo aplicaciones web de punta a punta: interfaces en React, backends y APIs en Python y Node.js, integración de servicios y despliegue. Me gusta resolver problemas reales con IA aplicada.
+**NOVUS DEV** es mi marca de desarrollo de software: construyo aplicaciones web de punta a punta — interfaces en React, backends y APIs en Python y Node.js, integración de servicios y despliegue. Me gusta resolver problemas reales con IA aplicada.
 
 **Stack:** React · JavaScript · Node.js · Python · Git · Linux
 
@@ -33,4 +33,4 @@ Construyo aplicaciones web de punta a punta: interfaces en React, backends y API
 
 ### 📫 Contacto
 
-**✉️ rafaalvarezmarimon07@gmail.com**
+✉️ **rafaalvarezmarimon07@gmail.com** · **NOVUS DEV**
