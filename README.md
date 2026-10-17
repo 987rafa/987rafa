@@ -4,13 +4,31 @@
 
 **NOVUS DEV** es mi marca de desarrollo de software: construyo aplicaciones web de punta a punta — interfaces en React, backends y APIs en Python y Node.js, integración de servicios y despliegue. Me gusta resolver problemas reales con IA aplicada.
 
-**Stack:** React · JavaScript · Node.js · Python · Git · Linux
+**Stack:** React · TypeScript · Node.js · Python (FastAPI) · PostgreSQL · Docker · Git · Linux
 
 **Disponible para:** proyectos freelance y posiciones remotas.
 
 ---
 
-### 🚀 Proyecto destacado
+### 🚀 Proyectos destacados
+
+#### 🧾 NOVUS POS — punto de venta e inventario para PYMES
+
+[![NOVUS POS — punto de venta con escáner y pagos](https://raw.githubusercontent.com/987rafa/novus-pos/main/docs/shots/03-pos.png)](https://github.com/987rafa/novus-pos)
+
+**[NOVUS POS](https://github.com/987rafa/novus-pos)** — sistema full-stack de punto de venta e inventario para negocios pequeños (tiendas, panaderías, minimercados), con interfaz en español:
+
+- 🛒 Ventas con carrito, descuentos e IVA 19 % automático · anulación con reposición de stock
+- 🏷️ Escáner de código de barras (lector USB) y fotos de producto
+- 💳 Efectivo (con recibido y cambio), transferencia o tarjeta · recibo imprimible
+- 💰 Turnos de caja: apertura con base, arqueo al cierre e historial de diferencias
+- 📊 Dashboard en tiempo real · un administrador (el dueño) y cajeros vinculados a él
+- 🐳 React 19 · FastAPI · PostgreSQL · Docker Compose · 51 tests · MIT
+
+[![CI](https://github.com/987rafa/novus-pos/actions/workflows/ci.yml/badge.svg)](https://github.com/987rafa/novus-pos/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-25d366.svg)](https://github.com/987rafa/novus-pos/blob/main/LICENSE)
+
+#### 🤖 WhatsApp AI Agent — un asistente que atiende tu WhatsApp
 
 [![whatsapp-ai-agent](https://raw.githubusercontent.com/987rafa/whatsapp-ai-agent/main/assets/banner.svg)](https://github.com/987rafa/whatsapp-ai-agent)
 
@@ -29,7 +47,7 @@
 
 ### 🔧 En construcción
 
-- **Mi Tienda** — sistema de pedidos e inventario para pequeños negocios (React + FastAPI + PostgreSQL)
+- **Pedidos por WhatsApp** — que los pedidos que atiende [whatsapp-ai-agent](https://github.com/987rafa/whatsapp-ai-agent) entren directo al POS de NOVUS POS
 
 ### 📫 Contacto
 
