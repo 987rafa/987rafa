@@ -22,8 +22,9 @@
 - 🏷️ Escáner de código de barras (lector USB) y fotos de producto
 - 💳 Efectivo (con recibido y cambio), transferencia o tarjeta · recibo imprimible
 - 💰 Turnos de caja: apertura con base, arqueo al cierre e historial de diferencias
+- 📥 Pedidos entrantes (WhatsApp / web) → la caja los confirma como venta en un clic
 - 📊 Dashboard en tiempo real · un administrador (el dueño) y cajeros vinculados a él
-- 🐳 React 19 · FastAPI · PostgreSQL · Docker Compose · 51 tests · MIT
+- 🐳 React 19 · FastAPI · PostgreSQL · Docker Compose · 66 tests · MIT
 
 [![CI](https://github.com/987rafa/novus-pos/actions/workflows/ci.yml/badge.svg)](https://github.com/987rafa/novus-pos/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-25d366.svg)](https://github.com/987rafa/novus-pos/blob/main/LICENSE)
@@ -36,6 +37,7 @@
 
 - 🤖 Responde tus mensajes de forma autónoma (sabe con quién habla)
 - 🧠 Memoria de largo plazo + ficha de cada contacto, aprendida de la conversación
+- 🛒 Toma pedidos para tu negocio (`!menu` + `!pedido`) y los manda al panel de Pedidos de [NOVUS POS](https://github.com/987rafa/novus-pos)
 - 🔔 Te avisa cuando un mensaje necesita a una persona real
 - 🔒 Gemini (capa gratuita) o 100% local con Ollama · Docker · MIT
 
@@ -45,9 +47,11 @@
 
 ---
 
-### 🔧 En construcción
+### 🧩 Integración NOVUS
 
-- **Pedidos por WhatsApp** — que los pedidos que atiende [whatsapp-ai-agent](https://github.com/987rafa/whatsapp-ai-agent) entren directo al POS de NOVUS POS
+- **Pedidos por WhatsApp → POS** ✔ — el agente atiende el pedido (`!pedido 2 gaseosa, 1 pan tajado`) y cae en la cola de **Pedidos** de NOVUS POS, donde la caja lo confirma como venta o lo rechaza
+
+[![Pedidos en NOVUS POS](https://raw.githubusercontent.com/987rafa/novus-pos/main/docs/shots/11-pedidos.png)](https://github.com/987rafa/novus-pos)
 
 ### 📫 Contacto
 
