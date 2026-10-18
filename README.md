@@ -45,6 +45,22 @@
 [![Release](https://img.shields.io/github/v/release/987rafa/whatsapp-ai-agent?color=25d366&label=release)](https://github.com/987rafa/whatsapp-ai-agent/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-25d366.svg)](https://github.com/987rafa/whatsapp-ai-agent/blob/main/LICENSE)
 
+#### 🧭 Job Copilot — copiloto de postulaciones con IA
+
+[![Job Copilot — panel con métricas y seguimientos](https://raw.githubusercontent.com/987rafa/job-copilot/main/docs/shots/panel.png)](https://github.com/987rafa/job-copilot)
+
+**[Job Copilot](https://github.com/987rafa/job-copilot)** — copiloto que ordena tu búsqueda de empleo de punta a punta:
+
+- 🎯 Analiza la oferta frente a tu CV: encaje 0–100, fortalezas, brechas y palabras clave
+- ✍️ Redacta carta, mensaje y seguimiento listos para copiar (español/inglés, 4 tonos)
+- 🗂️ Tablero kanban: guardada → aplicada → entrevista → oferta / rechazada, con notas y fechas de seguimiento
+- 📊 Panel con métricas, gráfico por estado y próximos seguimientos · CV en PDF o TXT
+- 🧠 IA intercambiable: cualquier API compatible con OpenAI, Gemini, o motor heurístico local sin claves
+- 🐳 React 19 · FastAPI · SQLite/PostgreSQL · Docker Compose · 32 tests · MIT
+
+[![CI](https://github.com/987rafa/job-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/987rafa/job-copilot/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-25d366.svg)](https://github.com/987rafa/job-copilot/blob/main/LICENSE)
+
 ---
 
 ### 🧩 Integración NOVUS
